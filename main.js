@@ -1,7 +1,7 @@
 /* Global variables */
 var button1; // (Button)
 
-var timer; // (Timer array)
+var timer; // (Timer)
 
 /* p5 functions */
 function setup(){
