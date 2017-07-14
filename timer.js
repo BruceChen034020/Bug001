@@ -28,13 +28,13 @@ function Timer(){
         document.body.appendChild(this.labelHr);
         this.labelHr.innerHTML = "Hours";
 
-        this.textBoxHr = document.createElement("textarea");
-        document.body.appendChild(this.textBoxHr);
-        this.textBoxHr.innerHTML = "0";
+        this.textBoxMin = document.createElement("textarea");
+        document.body.appendChild(this.textBoxMin);
+        this.textBoxMin.innerHTML = "0";
 
-        this.labelHr = document.createElement("label");
-        document.body.appendChild(this.labelHr);
-        this.labelHr.innerHTML = "Minutes";
+        this.textBoxMin = document.createElement("label");
+        document.body.appendChild(this.textBoxMin);
+        this.textBoxMin.innerHTML = "Minutes";
 
         this.reset = document.createElement("button");
         document.body.appendChild(this.reset);
